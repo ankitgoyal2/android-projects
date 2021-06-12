@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/pic_dialog"
+        android:src="@drawable/boss"
+        android:layout_centerHorizontal="true"
+        />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating_bar"
+        android:layout_below="@+id/pic_dialog"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:stepSize="1"
+        android:max="5"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/rating_bar"
+        android:id="@+id/submit_rating"
+        />
+
+
+</RelativeLayout>

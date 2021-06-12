@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".responsibleMan.RFaqActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E5E66"
+            android:layout_marginBottom="2dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/q1"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E5E66"
+            android:layout_marginBottom="2dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="Ans- 1.Check yout internet connection\n         2.Reset your password"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E5E66"
+            android:layout_marginBottom="2dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/rq2"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E5E66"
+            android:layout_marginBottom="2dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/ra2"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E5E66"
+            android:layout_marginBottom="2dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/q3"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E5E66"
+            android:layout_marginBottom="2dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/a3"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E5E66"
+            android:layout_marginBottom="2dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/rq4"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E5E66"
+            android:layout_marginBottom="2dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/ra4"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E5E66"
+            android:layout_marginBottom="2dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/rq5"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E5E66"
+            android:layout_marginBottom="2dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/ra5"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="12dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E5E66"
+            android:layout_marginBottom="2dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/rq6"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#5E5E66"
+            android:layout_marginBottom="2dp"
+            android:textSize="15sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="@string/ra6"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

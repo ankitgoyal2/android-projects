@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.inventory">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/approundicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/approundicon"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity android:name=".responsibleMan.RatingActivity"></activity>
+        <activity android:name=".FingerprintActivity" />
+        <activity android:name=".responsibleMan.RMChatActivity" />
+        <activity android:name=".serviceMan.SMChatActivity" />
+        <activity android:name=".responsibleMan.RMRequestStepIndicator" />
+        <activity android:name=".IntroActivity"/>
+        <activity android:name=".responsibleMan.MyMachine"/>
+        <activity android:name=".SplashScreen">
+
+        </activity>
+
+
+        <activity android:name=".responsibleMan.ResponsiblemanComplaintsTabActivity" />
+        <activity android:name=".responsibleMan.RMPendingRequestActivity" />
+
+        <activity
+            android:name="com.example.inventory.serviceMan.ServicemanRequests"
+            android:label="Request Status" />
+        <activity android:name="com.example.inventory.serviceMan.BottomNavigationActivity" />
+        <activity android:name="com.example.inventory.serviceMan.PendingComplaintsActivity" />
+        <activity
+            android:name="com.example.inventory.serviceMan.UpdateActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.inventory.responsibleMan.ShowDetailsActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.inventory.responsibleMan.GetMachineDetailsActivity"
+            android:label="Machine Details "
+            android:theme="@style/AppTheme.ProfileTheme"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.inventory.responsibleMan.GenerateQRActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.inventory.RegisterActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.inventory.responsibleMan.BottomNavigationActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.firebase.ml.vision.DEPENDENCIES"
+            android:value="barcode" />
+
+        <activity
+            android:name="com.example.inventory.ScanQRActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="com.example.inventory.MainActivity"
+            android:windowSoftInputMode="adjustResize" />
+
+        <service
+            android:name=".functions.FirebaseMsgService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+
+    </application>
+
+</manifest>
